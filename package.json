@@ -1,6 +1,5 @@
 {
   "name": "vaibhav-portfolio",
-  "homepage": "https://ervg0203.github.io/my-portfolio",
   "private": true,
   "version": "2.0.0",
   "type": "module",
@@ -8,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

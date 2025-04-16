@@ -53,7 +53,7 @@ export default function App() {
               <Route path="/project" element={<Project mode={mode} />} />
 
               <Route path="*" element={<Navigate to="/404" />} />
-              <Route path="/my-portfolio/" element={<Navigate to="/home" />} />
+              <Route path="/" element={<Navigate to="/home" />} />
             </Routes>
           </div>
 
