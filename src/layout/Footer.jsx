@@ -6,7 +6,7 @@ import {
   Typography,
   Tooltip,
 } from "@mui/material";
-import { X as XIcon, GitHub, LinkedIn, Instagram } from "@mui/icons-material";
+import { X as XIcon, GitHub, LinkedIn, Email, Code } from "@mui/icons-material";
 
 // Latest Copyright component
 function Copyright() {
@@ -64,27 +64,11 @@ export default function Footer() {
                 window.open(
                   "https://github.com/ervg0203",
                   "_blank",
-                  "noopener,noreferrer"
+                  "noopener,noreferrer",
                 )
               }
             >
               <GitHub />
-            </IconButton>
-          </Tooltip>
-          <Tooltip arrow title="X.com">
-            <IconButton
-              color="primary"
-              aria-label="X.com"
-              sx={{ alignSelf: "center" }}
-              onClick={() =>
-                window.open(
-                  "https://twitter.com/ervg0203",
-                  "_blank",
-                  "noopener,noreferrer"
-                )
-              }
-            >
-              <XIcon />
             </IconButton>
           </Tooltip>
           <Tooltip arrow title="LinkedIn">
@@ -96,27 +80,39 @@ export default function Footer() {
                 window.open(
                   "https://www.linkedin.com/in/vaibhav-kumar298",
                   "_blank",
-                  "noopener,noreferrer"
+                  "noopener,noreferrer",
                 )
               }
             >
               <LinkedIn />
             </IconButton>
           </Tooltip>
-          <Tooltip arrow title="Instagram">
+          <Tooltip arrow title="Gmail">
             <IconButton
               color="primary"
-              aria-label="Instagram"
+              aria-label="Gmail"
+              sx={{ alignSelf: "center" }}
+              onClick={() =>
+                window.location.assign("mailto:vaibhavgupta2980702@gmail.com")
+              }
+            >
+              <Email />
+            </IconButton>
+          </Tooltip>
+          <Tooltip arrow title="LeetCode">
+            <IconButton
+              color="primary"
+              aria-label="LeetCode"
               sx={{ alignSelf: "center" }}
               onClick={() =>
                 window.open(
-                  "https://www.instagram.com/ervg0203",
+                  "https://leetcode.com/u/ervg0203/",
                   "_blank",
-                  "noopener,noreferrer"
+                  "noopener,noreferrer",
                 )
               }
             >
-              <Instagram />
+              <Code />
             </IconButton>
           </Tooltip>
         </Stack>

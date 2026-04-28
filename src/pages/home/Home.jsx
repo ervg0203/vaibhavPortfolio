@@ -40,7 +40,7 @@ export default function Home() {
           >
             <TypewriterEffect
               strings={[
-                "MERN Stack Developer 💻",
+                "Software Developer 💻",
                 "Competitive Programmer ⚔️",
                 "Problem Solver 🧠",
               ]}
@@ -68,34 +68,25 @@ export default function Home() {
           </Typography>
 
           <Typography variant="h6" mt={3} px={2}>
-            I'm passionate about building full-stack applications with clean
-            design and robust backend logic. I love turning ideas into real
-            projects — from an{" "}
-            <strong style={{ color: "#0a66c2" }}>Ecommerce Platform</strong> to
-            a<strong style={{ color: "#0a66c2" }}> Spotify Clone</strong>, I’ve
-            explored various use cases to refine my MERN skills.
+            I'm passionate about building applications with clean
+            design and robust backend logic. I love turning ideas into real and scalable
+            projects.
             <br />
             <br />
             I’m skilled in languages like
             <strong style={{ color: "#0a66c2" }}>
               {" "}
-              JavaScript, C++, Java, Kotlin
+              Java, C++, JavaScript, Python, Kotlin
             </strong>{" "}
             and love working with
             <strong style={{ color: "#0a66c2" }}>
               {" "}
-              MongoDB, React, Node.js, Express, and AWS
+              Springboot, PostgreSQL, React.js, Node.js, Express.js, JWT.
             </strong>
-            . I also integrate tools like
-            <strong style={{ color: "#0a66c2" }}>
-              {" "}
-              JWT, Stripe, GitHub
-            </strong>{" "}
-            into production-grade projects.
             <br />
             <br />
-            I’ve completed 500+ coding problems across platforms like LeetCode,
-            HackerRank, and CodeChef, and I’m always exploring new challenges to
+            I’ve completed 600+ coding problems across platforms like LeetCode,
+            GeeksForGeeks and I’m always exploring new challenges to
             sharpen my skills.
             <br />
             <br />I believe in consistent growth — every line of code and every

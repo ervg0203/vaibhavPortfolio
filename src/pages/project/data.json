@@ -1,16 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Ecommerce Website",
-    "img": "project/SecureVault.png",
-    "link": "https://github.com/ervg0203/ecommerce_website_usingMERN",
-    "ghLink": "https://github.com/ervg0203/ecommerce_website_usingMERN",
-    "description": "A full-stack ecommerce platform built using the MERN stack. Includes user authentication, secure routes, dynamic product listing, and RESTful APIs for CRUD operations on product and user data."
+    "title": "Secure Docs Application",
+    "img": "project/secdocs.png",
+    "link": "",
+    "ghLink": "https://github.com/ervg0203/SecureDocsApplication.git",
+    "description": "SecureDocs is an Android application that allows users to securely store confidential documents in the device's internal storage."
+  },
+  {
+    "id": 4,
+    "title": "N-Queen Visualizer",
+    "img": "project/nqueen.png",
+    "link": "https://ervg0203.github.io/N-Queen-Visualizer/",
+    "ghLink": "https://github.com/ervg0203/N-Queen-Visualizer",
+    "description": "A visualization tool built to demonstrate the N-Queen backtracking algorithm. Designed during competitive coding training to improve DSA understanding through visual learning."
+  },
+  {
+    "id": 5,
+    "title": "Quest Search using gRPC",
+    "img": "project/quest.png",
+    "link": "",
+    "ghLink": "https://github.com/ervg0203/QuestSearchUsingGRPC.git",
+    "description": "A simple gRPC-based microservice using Node.js. Demonstrates bidirectional streaming, unary RPC, and effective Protobuf usage for structured inter-service communication."
   },
   {
     "id": 2,
     "title": "To-do List Application",
-    "img": "project/TodoReactDjango.png",
+    "img": "project/todo.png",
     "link": "https://ervg0203.github.io/Todo-Basic-Website/",
     "ghLink": "https://github.com/ervg0203/Todo-Basic-Website",
     "description": "A responsive to-do app built with vanilla JavaScript. Features task creation, drag-and-drop reordering, filtering, and local storage for persistent task management."
@@ -18,32 +34,16 @@
   {
     "id": 3,
     "title": "Spotify Clone",
-    "img": "project/RetroSphere.png",
+    "img": "project/spotify.png",
     "link": "https://ervg0203.github.io/spotify-basic-clone/",
     "ghLink": "https://github.com/ervg0203/spotify-basic-clone",
     "description": "A mini Spotify clone using HTML, CSS, and JavaScript. Users can play, pause, and skip tracks with a clean UI designed to mimic the core functionality of a music streaming app."
   },
   {
-    "id": 4,
-    "title": "N-Queen Visualizer",
-    "img": "project/Portfolio.png",
-    "link": "",
-    "ghLink": "https://github.com/ervg0203/N-Queen-Visualizer",
-    "description": "A visualization tool built to demonstrate the N-Queen backtracking algorithm. Designed during competitive coding training to improve DSA understanding through visual learning."
-  },
-  {
-    "id": 5,
-    "title": "gRPC Microservice Example",
-    "img": "project/TodoAngularNet.png",
-    "link": "",
-    "ghLink": "https://github.com/ervg0203/grpc-example",
-    "description": "A simple gRPC-based microservice using Node.js. Demonstrates bidirectional streaming, unary RPC, and effective Protobuf usage for structured inter-service communication."
-  },
-  {
     "id": 6,
     "title": "Weather Dashboard",
     "img": "project/ReactifyHub.png",
-    "link": "https://github.com/ervg0203/weather-dashboard",
+    "link": "https://ervg0203.github.io/weather-dashboard/",
     "ghLink": "https://github.com/ervg0203/weather-dashboard",
     "description": "React-based app to fetch real-time weather data using OpenWeatherMap API. Includes city search, error handling, weather icons, dark/light theme toggle, 5-day forecast, and recent search history."
   }

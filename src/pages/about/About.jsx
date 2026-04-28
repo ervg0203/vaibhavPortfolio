@@ -1,4 +1,3 @@
-import GitHubCalendar from "react-github-calendar";
 import { Container, Grid, Typography } from "@mui/material";
 
 import SkillSet from "./SkillSet";
@@ -16,37 +15,49 @@ export default function About({ mode }) {
           </Typography>
 
           <Typography variant="h6" mt={2} p={2} sx={{ textAlign: "justify" }}>
-            Hey! I'm <strong style={{ color: "#0a66c2" }}>Vaibhav Kumar</strong>{" "}
-            from
-            <strong style={{ color: "#0a66c2" }}> Haryana, India 🇮🇳</strong>.
-            I’m pursuing my B.Tech in Computer Science from
+            Hey! I'm{" "}
+            <strong style={{ color: "#0a66c2" }}>Vaibhav Kumar.</strong> I’m
+            pursuing my B.Tech. in Computer Science from
             <strong style={{ color: "#0a66c2" }}>
               {" "}
               Lovely Professional University 🎓
             </strong>
-            , always pushing my limits and exploring new tech.
+            .
             <br />
             <br />
-            I’ve built full-stack projects like an{" "}
-            <strong style={{ color: "#0a66c2" }}>Ecommerce site</strong>, a
-            <strong style={{ color: "#0a66c2" }}> Spotify clone</strong>, and a
-            dynamic
-            <strong style={{ color: "#0a66c2" }}> To-do List</strong> — all
-            while sharpening my MERN skills and taking on real-world coding
-            challenges.
+            I’m currently a{" "}
+            <strong style={{ color: "#0a66c2" }}>
+              Software Developer Intern
+            </strong>{" "}
+            at 73Strings (GoKloud), Bengaluru, where I re-architected a
+            Java/Spring Boot financial engine, cut latency from minutes to under
+            a second, and scaled it to handle bulk processing of 100K+ records.
             <br />
-            <br />I also completed an intensive summer training on
+            <br />
+            I’ve built projects like{" "}
+            <strong style={{ color: "#0a66c2" }}>
+              SpotBus (Real-Time Bus Tracking & ETA System)
+            </strong>
+            , <strong style={{ color: "#0a66c2" }}>Ecommerce Website</strong>,
             <strong style={{ color: "#0a66c2" }}>
               {" "}
-              Competitive Programming
+              SecureDocs Application
             </strong>
-            , strengthening my problem-solving skills with 500+ coding problems
-            solved across platforms.
+            , <strong style={{ color: "#0a66c2" }}>Weather Dashboard</strong> —
+            all while sharpening my skills and taking on real-world coding
+            challenges.
+            <br />
+            <br />I also worked as a{" "}
+            <strong style={{ color: "#0a66c2" }}>
+              Freelance Software Engineer
+            </strong>{" "}
+            at Outlier AI, evaluating AI-generated code in C++ and Java,
+            debugging edge cases, and improving correctness and performance.
             <br />
             <br />
-            Outside of tech, I enjoy music 🎧, exploring creative UI ideas 🎨,
-            and staying consistent with learning — because progress, like good
-            code, is all about iteration 🔁.
+            Outside of tech, I enjoy music 🎧, exploring creative ideas, and
+            staying consistent with learning — because progress, like good code,
+            is all about iteration 🔁.
           </Typography>
         </Grid>
 
@@ -97,11 +108,12 @@ export default function About({ mode }) {
             DAYS I <strong style={{ color: "#0a66c2" }}>CODE</strong>
           </Typography>
           <Grid container justifyContent="center" my={3}>
-            <GitHubCalendar
-              username="ervg0203"
-              blockSize={15}
-              blockMargin={5}
-              colorScheme={mode === "light" ? "light" : "dark"}
+            <img
+              src={`https://leetcard.jacoblin.cool/ervg0203?theme=${
+                mode === "light" ? "light" : "dark"
+              }&ext=heatmap`}
+              alt="LeetCode activity calendar"
+              style={{ width: "100%", maxWidth: "900px", height: "auto" }}
             />
           </Grid>
         </Grid>
