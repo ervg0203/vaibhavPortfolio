@@ -1,5 +1,21 @@
 [
   {
+    "id": 8,
+    "title": "SpotBus - IN PROGRESS",
+    "img": "project/spotbus.png",
+    "link": "",
+    "ghLink": "https://github.com/ervg0203/SpotBus.git",
+    "description": "Realtime Bus tracking and ETA management system"
+  },
+  {
+    "id": 7,
+    "title": "ShopSphere",
+    "img": "project/shopsphere.png",
+    "link": "https://shop-sphere-vaibhav.vercel.app/",
+    "ghLink": "https://github.com/ervg0203/ShopSphere.git",
+    "description": "ShopSphere is a full-stack ecommerce web application. It provides a modern online shopping experience with features like product browsing, authentication, cart management, etc."
+  },
+  {
     "id": 1,
     "title": "Secure Docs Application",
     "img": "project/secdocs.png",
